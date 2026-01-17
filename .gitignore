@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# Data (do not upload datasets)
+data/
+*.csv
+
+# Model artifacts
+models/
+*.pkl
+*.joblib
+
+# Logs
+*.log
