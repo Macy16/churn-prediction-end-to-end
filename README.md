@@ -20,3 +20,12 @@ Telco Customer Churn dataset (target: `Churn`)
 
 ## Metrics
 Main metrics: F1-score, ROC-AUC
+
+## Results (Baseline Models)
+
+| Model | F1-score | ROC-AUC |
+|------|----------:|--------:|
+| Logistic Regression | 0.607 | 0.835 |
+| Random Forest | 0.543 | 0.815 |
+
+**Conclusion:** Logistic Regression performed best and is used as the baseline deployment model.
